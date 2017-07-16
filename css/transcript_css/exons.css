@@ -1,0 +1,36 @@
+.exons {
+	float: left;
+	margin-top: 20px;
+}
+
+.exons--row {
+	height: 70px;
+	width: 700px;
+	position: relative;
+}
+
+.exons--row--axis {
+	height: 1px;
+	display: inline-block;
+	background-color: #004466;
+	/*background-color: #015760;*/
+	opacity: 1;
+	z-index: -1;
+	position: absolute;
+	top: 50%;
+}
+
+.exons--row--item {
+	z-index: 1;
+	position: absolute;
+	/*background-color: #015760;*/
+	background-color: #004466;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 0.70em;
+}
+
+.exons--row--item span {
+	position: absolute;
+	transform: translate(-50%, 0)
+}

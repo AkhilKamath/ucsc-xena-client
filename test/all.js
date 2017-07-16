@@ -17,4 +17,6 @@ require('./fields');
 require('./datasetJoins');
 require('./compactData');
 require('./parsePos');
+require('./permuteCase');
+require('./findIntrons');
 //require('./matrix-test');
